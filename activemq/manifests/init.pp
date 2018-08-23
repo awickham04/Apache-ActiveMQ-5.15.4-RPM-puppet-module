@@ -53,7 +53,7 @@ class activemq {
     ensure  => 'directory',
     owner   => 'root',
     group   => 'root',
-    mode    => 0775,
+    mode    => '0775',
   }
   file { '/opt/activemq/conf/log4j.properties':
     ensure  => present,
