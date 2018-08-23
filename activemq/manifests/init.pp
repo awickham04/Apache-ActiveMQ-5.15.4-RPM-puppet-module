@@ -2,9 +2,6 @@
 # & firewall rules.
 
 class activemq {
-  require infra2_os::telligen
-  require dns_client
-  require yum
 
   package { 'apache-activemq':
     ensure => 'installed',
