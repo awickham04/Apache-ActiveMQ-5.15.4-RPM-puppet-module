@@ -11,4 +11,4 @@ yum install apache-activemq
 Apache ActiveMQ puppet module
 Manages firewall rules and log4j.properties file points logs to /var/log/activemq.
 
-Make sure you have the ActiveMQ RPM in your yum repository.
+Make sure you have the ActiveMQ RPM in your yum repository for the puppet module to work.
